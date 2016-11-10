@@ -1,0 +1,153 @@
+
+* {
+  font-family: sans-serif;
+}
+
+/*img:hover {
+   opacity: 0.5;
+   filter: alpha(opacity=100);
+}*/
+
+/**************************************Nav Bar*/
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+  .strip {
+  border-bottom-color: red;
+  max-width: 60%;
+  border-bottom-width: 5px;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: black;
+}
+
+.nav-list__item {
+  margin: 1rem 0.5rem;
+}
+
+.nav-logo {
+   padding-left: 300px;
+   padding-top: 15px;
+}
+
+.nav-search {
+  padding-top: 15px;
+  padding-left: 340px;
+}
+
+a:link {
+  background-color: transparent;
+}
+
+a:hover {
+  color: black;
+  background-color: red;
+}
+
+  /**************************************Top Text*/
+h1 {
+  margin-top: 130px;
+  text-align: center;
+  color: #545454;
+}
+
+.some-text {
+  text-align: center;
+  color: #545454;
+}
+
+
+
+
+  /**************************************Gallery*/
+.gallery {
+  width: 60%;
+  margin:auto;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.left.side {
+  display: -webkit-flex;
+  display: flex;
+  display: inline-block;
+  width: 60%;
+}
+
+.right.side{
+  display: -webkit-flex;
+  display: flex;
+  display:inline-block;
+  flex-direction: column;
+  width: 40%;
+}
+
+/***************************************Images*/
+.stone {
+width: 490px;
+padding: 5px;
+}
+
+.plant {
+  width: 240px;
+  padding: 0 2.5px;
+
+}
+.sea {
+  width: 240px;
+  padding: 0 2.5px;
+}
+
+.clouds {
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+}
+
+.building {
+  padding: 0 5px;
+  width: 300px;
+  height: 408px;
+}
+
+  /**************************************Footer*/
+footer {
+  width: 60%;
+  margin: auto;
+}
+
+.new-color {
+    color: red;
+  }
+
+.new {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    width: 200px;
+  }
+
+.modern {
+    padding: 1em;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
+    font-size: 12px;
+  }
+
+a {
+  color: black;
+  text-decoration: none;
+}
